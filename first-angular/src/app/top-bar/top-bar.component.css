@@ -1,0 +1,49 @@
+.header-left {
+  float: left;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-left span {
+  font-size: 33px;
+  font-weight: 600;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-right:hover,
+.header-left span:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.cart-session .fa-shopping-cart {
+  font-size: 31px;
+  width: 40px;
+  padding-right: 5px;
+  color: antiquewhite;
+}
+
+.cart-session {
+  position: relative;
+  width: 52%;
+  display: inline-flex;
+  padding: 8px 16px;
+  align-items: center;
+  background-color: darkgoldenrod;
+}
+
+.text-cart span {
+  color: wheat;
+  font-size: 19px;
+}

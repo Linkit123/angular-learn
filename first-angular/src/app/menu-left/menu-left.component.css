@@ -1,0 +1,55 @@
+.label {
+  font-size: 17px;
+}
+.label.header {
+  color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.label.detail {
+  font-size: 13px;
+}
+
+.product {
+  margin: 20px;
+  background-color: #84f9f9;
+  padding: 17px;
+  cursor: pointer;
+}
+
+.product:hover {
+  background-color: #d9eaea;
+}
+
+.product-active {
+  background-color: #bfc7ff !important;
+}
+
+.menu-left {
+  width: 20%;
+  float: left;
+}
+
+.detail-product {
+  width: calc(100% - 313px);
+  float: left;
+  padding: 10px;
+  height: 100%;
+  margin: 67px 0;
+  background-color: #efd2d2;
+}
+
+.clearfix,
+.foo,
+.bar {
+  *zoom: 1;
+}
+.clearfix:after,
+.foo:after,
+.bar:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
